@@ -1,9 +1,9 @@
-from app.ArvoreBinariaRecursiva import ArvoreBinariaRecursiva
+from app.ArvoreBinaria import ArvoreBinaria
 from app.Inteiro import Inteiro
 
 
 def test_adicionar_elemento_na_arvore():
-    arvore : ArvoreBinariaRecursiva = ArvoreBinariaRecursiva()
+    arvore : ArvoreBinaria = ArvoreBinaria()
     
     arvore.adicionar(Inteiro(1))
     arvore.adicionar(Inteiro(2))

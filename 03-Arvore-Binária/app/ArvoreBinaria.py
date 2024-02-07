@@ -1,6 +1,6 @@
 from app.No import No
 
-class ArvoreBinariaRecursiva(object):
+class ArvoreBinaria(object):
     
     def __init__(self) -> None:
         """
@@ -49,7 +49,7 @@ class ArvoreBinariaRecursiva(object):
                 self.auxiliar_no_adicionar(objeto, raiz.esquerda)
 
     
-    def deletar_por_numero(self, numero) -> object:
+    def deletar(self, numero) -> object:
         """
            Deleta um elemento da lista baseado no número do atributo "dado" do objeto
 
@@ -59,7 +59,53 @@ class ArvoreBinariaRecursiva(object):
            Returns:
                objeto (object) : objeto deletado da arvore
         """
+        ## Verificar se o que quero deletar é uma folha : apaga direto
+        
+        ## Verificar se o nó tem filhos apenas de um lado : pega o pai desse nó e aponta para o unico filho que esse nó tem
+        
+        ## Verificar se o nó tem filhos dos dois lados : Encontrar um substituto para ele, o substituto ideal é o sucessor
+        
         pass
+    
+    def busca(self, elemento : int):
+        pass
+    
+    
+    def obter_altura(self):
+        pass
+    
+    
+    def verificar_se_vazia(self):
+        pass
+    
+    
+    def obter_numero_nos():
+        pass
+
+
+    def encontrar_sucessor_e_antecessor(self, elemento : int):
+        pass
+    
+    
+    def obter_minimo_maximo(self):
+        pass
+    
+    def imprimir(self):
+        """
+        
+        """
+        """ 
+            Existem diferentes formas de percorrer os nós de uma árvore binária:
+            Inorder Traversal:
+                Visita o nó esquerdo, depois o nó raiz e, por fim, o nó direito.
+            Preorder Traversal:
+                Visita o nó raiz, depois o nó esquerdo e, por fim, o nó direito.
+            Postorder Traversal:
+                Visita o nó esquerdo, depois o nó direito e, por fim, o nó raiz.
+        """
+        pass
+    
+    
     
     
     # def imprimir(self) -> None:

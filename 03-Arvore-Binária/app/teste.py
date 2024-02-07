@@ -1,7 +1,7 @@
-from ArvoreBinariaRecursiva import ArvoreBinariaRecursiva
+from app.ArvoreBinaria import ArvoreBinaria
 from Inteiro import Inteiro
 
-arvore : ArvoreBinariaRecursiva = ArvoreBinariaRecursiva()
+arvore : ArvoreBinaria = ArvoreBinaria()
 
 arvore.imprimir()
 
